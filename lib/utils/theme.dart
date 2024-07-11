@@ -13,3 +13,4 @@ const Color disabledButton = Color.fromRGBO(243, 246, 246, 1);
 const Color rectangle = Color.fromRGBO(255, 235, 228, 1);
 const Color red = Color.fromRGBO(240, 74, 76, 1);
 const Color active = Color.fromRGBO(15, 225, 109, 1);
+const Color bottomNavigationBar = Color.fromRGBO(238, 250, 246, 1);

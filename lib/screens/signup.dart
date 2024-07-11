@@ -118,9 +118,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
             Column(
               children: [
                 CustomButton(
-                  text: 'Log in',
+                  text: 'Create an account',
                   active: active,
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.of(context).pushReplacementNamed('/signin');
+                  },
                   color: active ? primary : disabledButton,
                   textColor: active ? white : fontPlaceholder,
                 ),

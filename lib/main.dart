@@ -1,3 +1,4 @@
+import 'package:chat/screens/home.dart';
 import 'package:chat/screens/onboarding.dart';
 import 'package:chat/screens/signIn.dart';
 import 'package:chat/screens/signup.dart';
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
         '/onboarding': (context) => OnboardingScreen(),
         '/signin': (context) => SignInScreen(),
         '/signup': (context) => SignUpScreen(),
+        '/home': (context) => HomeScreen(),
       },
     );
   }

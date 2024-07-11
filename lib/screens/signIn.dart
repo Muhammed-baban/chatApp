@@ -38,7 +38,8 @@ class _SignInScreenState extends State<SignInScreen> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                      Navigator.of(context).pushReplacementNamed('/onboarding');
+                            Navigator.of(context)
+                                .pushReplacementNamed('/onboarding');
                           },
                           child: SvgPicture.asset(
                             'assets/icons/Back.svg',
@@ -100,7 +101,9 @@ class _SignInScreenState extends State<SignInScreen> {
                 CustomButton(
                   text: 'Log in',
                   active: active,
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.of(context).pushReplacementNamed('/home');
+                  },
                   color: active ? primary : disabledButton,
                   textColor: active ? white : fontPlaceholder,
                 ),
